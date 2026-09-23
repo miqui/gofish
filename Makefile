@@ -21,4 +21,4 @@ fmt-check:
 lint:
 	golangci-lint run ./...
 
-ci: fmt-check vet test
+ci: fmt-check vet lint test
